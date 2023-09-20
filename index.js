@@ -1,35 +1,36 @@
-let NomeDaHeroina = 'Amanda';
+let NomeDaHeroina = "Amanda"
 let XpDaHeroina = 1000;
 let PatenteDaHeroina;
 
+
 switch (true) {
     case  XpDaHeroina >= 0 && XpDaHeroina <= 1000:
-        PatenteDaHeroina = 'Ferro';
+        PatenteDaHeroina = "Ferro";
         break;
     case XpDaHeroina >= 1001 && XpDaHeroina <= 2000:
-        PatenteDaHeroina = 'Bronze';
-        break;
+        PatenteDaHeroina = "Bronze"; 
+                break;
     case XpDaHeroina >= 2001 && XpDaHeroina <= 5000:
-        PatenteDaHeroina = 'Prata';
+        PatenteDaHeroina = "Prata";
         break;
     case XpDaHeroina >= 5001 && XpDaHeroina <= 7000:
-        PatenteDaHeroina = 'Ouro';
+        PatenteDaHeroina = "Ouro";
         break;
     case XpDaHeroina >= 7001 && XpDaHeroina <= 8000:
-        PatenteDaHeroina = 'Platina';
+        PatenteDaHeroina = "Platina";
         break;
     case XpDaHeroina >= 8001 && XpDaHeroina <= 9000:
-        PatenteDaHeroina = 'Ascendente';
+        PatenteDaHeroina = "Ascendente";
         break;
     case XpDaHeroina >= 9001 && XpDaHeroina <= 10000:
-        PatenteDaHeroina = 'Imortal';
+        PatenteDaHeroina = "Imortal";
         break;
     case XpDaHeroina > 10001:
-        PatenteDaHeroina = 'Radiante';
+        PatenteDaHeroina = "Radiante";
         break;
     default:
-        PatenteDaHeroina = 'Desconhecido';
+        PatenteDaHeroina = "Desconhecido";
 }
 
-console.log("A Heróina de nome ${NomeDaHeroina} está no nível de ${PatenteDaHeroina}!");
+console.log ("A Heróina de nome ${NomeDaHeroina} está no nível de ${PatenteDaHeroina}!");
 
